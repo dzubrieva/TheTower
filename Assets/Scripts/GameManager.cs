@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     private bool isTouching = false;
     private readonly WaitForSeconds timeStep = new WaitForSeconds(0.04f);
 
+
+
     private void Awake()
     {
         Cylinders = new List<GameObject>();
