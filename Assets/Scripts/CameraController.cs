@@ -2,7 +2,6 @@
 
 public class CameraController : MonoBehaviour
 {
-
     public float smoothStep = 0.25f;
     public Vector3 offset;
     private Vector3 offsetHandler;
@@ -12,7 +11,6 @@ public class CameraController : MonoBehaviour
     {
 
     }
-
 
     void Update()
     {
