@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
 
-
 [CreateAssetMenu(fileName = "New Settings", menuName = "Settings")]
 public class GameSettings : ScriptableObject
 {
-    [Header("Colors")]
+// поменяй в местах, где юзается, и убери потом эти комментарии
+    [Header("Color")]
     public Color failCylinderColor;
-
-
-    [Header("Cylinder Values")]
+// поменяй в местах, где юзается
+    [Header("Cylinder Value")]
     public float increaseDecreaseStep = 0.04f;
-
-    [Header("Other Values")]
+// поменяй в местах, где юзается
+    [Header("Other Value")]
     public float waitWhenPerfectWave = 1f;
 }
